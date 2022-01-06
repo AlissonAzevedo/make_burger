@@ -53,7 +53,7 @@
 
       <div id="opcionais-container" class="input-container">
         <label id="opcionais-label" for="opcionais"
-          >Selecione os opcionais:</label
+          >Selecione os opcionais (Min: 1):</label
         >
         <div
           class="checkbox-container"
@@ -64,6 +64,8 @@
             type="checkbox"
             name="opcionais"
             v-model="opcionais"
+            checked
+            required
             :value="opcional.tipo"
           />
           <span>{{ opcional.tipo }}</span>
