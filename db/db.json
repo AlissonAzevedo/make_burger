@@ -88,13 +88,12 @@
     },
     {
       "id": 2,
-      "tipo": "Em produção"
+      "tipo": "Montagem"
     },
     {
       "id": 3,
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-  ]
+  "burgers": []
 }
