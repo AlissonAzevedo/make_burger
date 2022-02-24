@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  dev-Burger
+  Make-Burger
 </h1>
 
 <p align="center">
@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Dev Burger é um site simples onde você pode criar seu burger, efetuar o pedido desse burger. Para a parte de administração tem a página Pedidos onde é possível visualizar todos os pedidos feitos, editar o status do pedido e deletar o pedido.
+O Make Burger é um site simples onde você pode criar seu burger, efetuar o pedido desse burger. Para a parte de administração tem a página Pedidos onde é possível visualizar todos os pedidos feitos, editar o status do pedido e deletar o pedido.
 
 ## Project setup
 ```
