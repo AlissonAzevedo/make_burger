@@ -95,5 +95,56 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "nome": "Antonio de Azevedo",
+      "pao": "Integral",
+      "carne": "Veggie burger",
+      "bebida": "Fanta Laranja",
+      "opcionais": [
+        "Salame",
+        "Cebola roxa",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Montagem",
+      "id": 1
+    },
+    {
+      "nome": "Alisson",
+      "pao": "3 Queijos",
+      "carne": "Alcatra",
+      "bebida": "Fanta Laranja",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Montagem",
+      "id": 2
+    },
+    {
+      "nome": "Alisson",
+      "pao": "Italiano Branco",
+      "carne": "Alcatra",
+      "bebida": "Fanta Uva",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "nome": "Antonio de Azevedo",
+      "pao": "Italiano Branco",
+      "carne": "Maminha",
+      "bebida": "Fanta Uva",
+      "opcionais": [
+        "Bacon",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    }
+  ]
 }
