@@ -122,7 +122,7 @@ export default {
       }, 3000);
       //console.log(res);
     },
-  },
+  },  //methods     
   mounted() {
     this.getpedidos();
   },

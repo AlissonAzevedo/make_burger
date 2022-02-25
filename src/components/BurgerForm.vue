@@ -4,7 +4,7 @@
   </div>
 
   <div>
-    <form id="burger-form" @submit="createBurger">
+    <form id="burger-form" @submit="createBurger"> <!-- mudar o submit para "createBurger" -->
       <div class="input-container">
         <label for="nome">Nome do Cliente:</label>
         <input
@@ -147,6 +147,22 @@ export default {
         (this.bebida = ""),
         (this.opcionais = "");
     },
+    // async enviarBurger(e){
+    //   e.preventDefault();
+      
+
+    //   const data = {
+    //     nome: this.nome,
+    //     pao: this.pao,
+    //     carne: this.carne,
+    //     bebida: this.bebida,
+    //     opcionais: Array.from(this.opcionais),
+    //     status: "Solicitado",
+    //   };
+    //   console.log(data);
+    //   window.location = "https://api.whatsapp.com/send/?phone=86988665897&text=nome: "+this.nome+" pao: "+this.pao+" carne: "+this.carne+" bebida: "+this.bebida+" opcionais: "+this.opcionais+" status: "+this.status+ "Numero do Pedido:"+this.id;
+     
+    // }
   },
   mounted() {
     this.getIngredientes();
